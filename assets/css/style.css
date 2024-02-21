@@ -297,6 +297,10 @@ button:hover{
     background-size: cover;
     background-position: center;
     border-bottom: 4px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:baseline;
     
 }
 .box{
@@ -304,21 +308,23 @@ button:hover{
     height: 100vh;
     max-width: 95%;
     margin: 0 auto;
-    display: block;
-    align-items: center;
-    justify-content: space-around;
+    display: flex;
+    align-items: start;
+   
+    flex-direction: column;
+    margin: 0%;
+    
 }
 
-.box img {
-    display: block;
-}
-.card h5{
+
+.card-text{
     color: white;
     margin-left: 50px;
     margin-top: 80px;
     font-size: 22px;
     display: flex;
     flex-direction: column;
+    
 }
     
 
@@ -332,11 +338,21 @@ button:hover{
 }
 
 .card  {
+    
+    
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     
-    right: 50%;
+     
+    
+
+
+}
+
+.card-text {
+    display: flex;
+    margin-bottom: 60%;
 
 }
 
