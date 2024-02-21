@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Comfort-Clima",
+			"path": "../../../../Documenti/GitHub/Comfort-Clima"
+		},
+		{
+			"name": "Comfort Clima",
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Comfort Clima"
+	}
+}
