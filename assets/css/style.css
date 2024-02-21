@@ -8,7 +8,9 @@
 
 }
 
-
+img {
+    z-index: 999;
+}
 
 nav {
     display: flex;
