@@ -12,6 +12,8 @@ img {
     
 }
 
+
+
 nav {
     display: flex;
     align-items:center;
@@ -245,6 +247,7 @@ h4{
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .about-text h5{
@@ -261,6 +264,7 @@ h4{
     letter-spacing: 1px;
     line-height: 28px ;
     margin-bottom: 45px;
+    
     
 
 }
@@ -335,6 +339,7 @@ button:hover{
     max-width:  100%;
     margin: 70px auto;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .card  {
@@ -371,6 +376,65 @@ button:hover{
     
 }
  /*end skills*/
+
+ /*start Recensioni */
+
+ .testimonials {
+    border: 2px solid white;
+    padding: 40px 0;
+    color: #f29057;
+    background-color: #034959;
+    text-align: center;
+    height: 100vh;
+    
+ }
+
+ .inner{
+    max-width: 1200px;
+    letter-spacing: 1px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+    
+    background-color: #034959;
+
+ }
+
+
+ .border{
+    width:160p ;
+    height:5p ;
+    background-color: #f29057;
+    margin: 26px auto ;
+ }
+
+ .row {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+ }
+
+ .col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+
+
+ }
+
+
+ .inner h2 {
+    font-size: 75px;
+    color: #f29057;
+    font-size: 75px;
+    padding: 10px 20px ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+ }
+ 
+
 
 /* start contattami */
 
